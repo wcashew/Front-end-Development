@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>文本类标签</title>
+</head>
+<body>
+    <!-- a 链接标签 -->
+    <!-- 当前窗口打开链接 -->
+    <a href="http://www.w3.org" target="_self">W3C(当前窗口打开)</a> 
+    <!-- 新窗口打开链接-->
+    <a href="http://www.w3.org" target="_blank">W3C(新窗口打开)</a> 
+
+    <!-- 链接锚点-->
+    <h1>页面内链接锚点</h1>
+    <a href="#product">我们的产品</a>
+    <p>内容 1</p>
+    <p>内容 2</p>
+    <p>内容 3</p>
+    <p>内容 4</p>
+    <p>内容 5</p>
+    <p>内容 6</p>
+    <p>内容 7</p>
+    <h2 id="product">我们的产品</h2>
+    <p>内容 1</p>
+    <p>内容 2</p>
+    <p>内容 3</p>
+    <p>内容 4</p>
+    <p>内容 5</p>
+    <p>内容 6</p>
+    <p>内容 7</p>
+
+    <!-- 引用标签-->
+    <!-- blockquote 长引用
+         q 短引用
+         cite 引用来源 -->
+    <blockquote cite="http: t.cn/RfKO0F">
+        <p>天才并不是⾃⽣⾃⻓在深林荒野⾥的怪物， 是由可以使天才⽣⻓的⺠众产⽣、⻓育出来的，
+            所以没有 这种⺠众，就没有天才。 </p>
+    </blockquote>
+    <cite>鲁迅 《未有天才之前》 </cite>
+    <p><cite>维基百科 </cite>上说 JavaScript <q>最初命名为 Mocha </q> </p>
+
+    <!-- 强调标签 -->
+    <!-- em 强调重读
+         strong 强调重要性 -->
+    <p>猫是可爱的动物</p>
+    <p>猫<em>是</em>可爱的动物</p>
+    <p>猫是<em>可爱</em>的动物</p>
+
+    <p>用法和用量：每日三次，每次一片，饭后服用。
+        <strong>警告：孕妇和儿童请遵医嘱。</strong>
+    </p>
+
+    <!-- 代码 -->
+    <!-- code 代码段
+         var 变量名
+         samp 输出⽰例
+         kbd 键盘操作 -->
+    <p>Python 打印一句话代码示例：<code>print("Hello World")</code></p>
+    <p>变量名可以是这样的：<var>all_nums </var>= 100</p>
+    <p>Python 打印输入如下：<samp>Hello World</samp></p>
+    <p>复制快捷键是：<kbd>Ctrl + C</kbd></p>
+
+    <!-- 空白符 -->
+    <!-- 使用pre标签 -->
+    <pre>Hello           World</pre>
+    <pre>你好，
+
+
+    世界
+    </pre>
+
+    <!-- 实体字符 -->
+    <!-- &nbsp; 空格-->
+    <p>请输入你的名字：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （使用简体中文）</p>
+    <!-- &lt; 小于号-->
+    <p>1&nbsp;&lt;&nbsp;2&nbsp;&lt;&nbsp;3&nbsp;&lt;&nbsp;4&nbsp;&lt;&nbsp;5</p>
+    <!-- &gt; 大于号-->
+    <p>5&nbsp;&gt;&nbsp;4&nbsp;&gt;&nbsp;3&nbsp;&gt;&nbsp;2&nbsp;&gt;&nbsp;1</p>
+    <!-- &amp; &-->
+    <p>实体字符是以&nbsp;&amp;&nbsp;开头的</p>
+</body>
+</html>

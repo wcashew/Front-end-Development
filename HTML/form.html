@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <lable>用户名：</lable>
+            <input type="text" placeholder="3-24 个字符">
+        </p>
+        <p>
+            <lable>密码：</lable>
+            <input type="password">
+        </p>
+        <p>
+            <lable>年龄：</lable>
+            <input type="number" value="18">
+        </p>
+        <p>
+            <lable>头像：</lable>
+            <input type="file">
+        </p>
+        <p>
+            <lable>生日：</lable>
+            <input type="date">
+        </p>
+    </form>
+
+    <!-- 多行文本框 -->
+    <textarea rows="5" cols="30"></textarea>
+
+    <!-- 单选框 -->
+     <p>请选择您最喜欢的水果</p>
+     <input type="radio" name="fruit"><label>香蕉</label>
+     <input type="radio" name="fruit"><label>苹果</label>
+     <input type="radio" name="fruit"><label>桔子</label>
+     <p>请选择您的衣服尺码</p>
+     <label><input type="radio" name="size">XS</label>
+     <label><input type="radio" name="size">S</label>
+     <label><input type="radio" name="size">M</label>
+     <label><input type="radio" name="size">L</label>
+     <input type="radio" name="size" id="xl"><label for="xl">XL</label>
+
+     <!-- 复选框 -->
+     <form>
+         <p>请选择您最喜欢的水果</p>
+         <label><input type="checkbox" checked>香蕉</label>
+         <label><input type="checkbox">猕猴桃</label>
+         <label><input type="checkbox">西瓜</label>
+     </form>
+
+     <!-- 更多input类型 -->
+     <p>search:
+         <input type="search">
+     </p>
+     <p>tel:
+         <input type="tel">
+     </p>
+     <p>url:
+         <input type="url">
+     </p>
+     <p>email:
+         <input type="email">
+     </p>
+     <p>month:
+         <input type="month">
+     </p>
+     <p>time:
+         <input type="time">
+     </p>
+     <p>range:
+         <input type="range">
+     </p>
+     <p>color:
+         <input type="color">
+     </p>
+
+     <!-- 下拉选择框 -->
+     <select name="fruit">
+        <option value="1">苹果</option>
+        <option value="2" selected>香蕉</option>
+        <option value="3">芒果</option>
+        <option value="4">菠萝</option>
+        <option value="5">榴莲</option>
+        <option value="6">木瓜</option>
+     </select>
+
+     <!-- 按钮 -->
+      <form>
+          <p>
+              <label>用户名：</label>
+              <input name="username">
+          </p>
+          <p>
+              <label>密码：</label>
+              <input name="psaaword">
+          </p>
+          <p>
+              <button type="submit">提交按钮</button>
+              <button type="button">普通按钮</button>
+          </p>
+      </form>
+</body>
+</html>
