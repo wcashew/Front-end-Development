@@ -1,0 +1,85 @@
+
+/* 
+通配选择器 * 匹配页面所有元素
+* {
+    color: red;
+    font-size: 20px;
+}
+*/
+
+/* 标签选择器 */
+h1 {
+    color: orange;
+}
+
+p {
+    color: grey;
+    font-size: 20px;
+}
+
+/* id选择器
+   id在页面中具有唯一性
+*/
+#author {
+    color: indianred;
+    font-size: 18px;
+}
+
+/* 类选择器
+   . + 类名
+*/
+.done{
+    color: grey;
+    text-decoration: line-through;
+}
+
+/* 属性选择器
+   标签[属性]
+*/
+input[disabled] {
+    background:#eee;
+    color:grey;
+}
+
+/* 动态伪类 */
+a:link {
+    color:black;
+}
+a:visited {
+    color:gray;
+}
+a:hover {
+    color:orange;
+}
+a:active{
+    color:red;
+}
+
+/* 结构性伪类 */
+li.movie {
+    list-style-position: inside;
+    border-bottom: 1px solid;
+    padding: 0.5em;
+}
+li:first-child {
+    color:coral;
+}
+li:last-child {
+    color:cornflowerblue;
+}
+
+/* 组合器 */
+/* 选中B B是A的子孙 */
+article h1 {
+    color:red;
+}
+article p {
+    color:coral;
+}
+/* 选中B B是A的子元素 */
+article > p {
+    color:limegreen;
+}
+article section h2 {
+    border-bottom: 1px dashed #999;
+}
