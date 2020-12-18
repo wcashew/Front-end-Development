@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /* 
 通配选择器 * 匹配页面所有元素
 * {
@@ -18,6 +18,7 @@ p {
 }
 
 /* id选择器
+   #id名
    id在页面中具有唯一性
 */
 #author {
@@ -35,7 +36,6 @@ p {
 
 /* 属性选择器
    标签[属性]
-   标签[type=value]
 */
 input[disabled] {
     background:#eee;
@@ -44,6 +44,43 @@ input[disabled] {
 input[type=password] {
     border-color:red;
 }
+/* 包含某属性值或空格+属性值
+   使用 ~= 
+*/
+[class~=text] {
+    color: saddlebrown;
+}
+
+/* 以某属性值开头或属性值- 开头
+   使用 |=   
+*/
+[lang|=en] {
+    color:skyblue;
+}
+
+/* 属性值以某字符开头
+   使用 ^=
+   含有符号或空格的需用引号
+ */
+[href^="#"] {
+    font-weight: bold;
+}
+
+/* 以某属性值结尾
+   使用 $=
+*/
+[href$=pdf] {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* 包含某属性值
+   使用 *=
+   含有符号或空格的需用引号
+ */
+ [href*="lady.163.com"] {
+     font-size: 30px;
+ }
 
 /* 动态伪类 */
 a:link {
@@ -60,16 +97,15 @@ a:active{
 }
 
 /* 结构性伪类 */
-li.movie {
-    list-style-position: inside;
-    border-bottom: 1px solid;
-    padding: 0.5em;
-}
 li:first-child {
     color:coral;
 }
 li:last-child {
     color:cornflowerblue;
+}
+/* 偶数项元素 */
+li:nth-child(even) {
+    color:silver;
 }
 
 /* 组合器 */
@@ -81,7 +117,7 @@ article p {
     color:coral;
 }
 /* 选中B B是A的子元素 */
-article > p {
+article>p {
     color:limegreen;
 }
 article section h2 {
