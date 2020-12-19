@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+/* 字体族最后加上通用字体族
+   英文字体放在中文字体前面 */
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* 大小 font-size
+   大小：small medium large
+   长度：px em
+   百分比：相对于父元素 */
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 2em;
+    color: orange;
+}
+p {
+    font-size: 90%;
+}
+
+/* 样式 font-style
+   normal italic */
+p {
+    font-style: italic;
+}
+
+/* 粗细/字重 font-weight
+   字重 100-900
+   normal:400
+   bold:700 */
+p {
+    font-weight: bold;
+}
+
+/* 行高 line-height */
+h1 {
+    line-height: 45px;
+}
+p {
+    line-height: 1.6;
+}
+
+/* 字体设置可以写在一行内
+   顺序为：样式 粗细 大小/行高 字体族 */
+.font {
+    font: bold 14px Helvetica, sans-serif;
+}
+
+/* 文字样式 */
+/* 对齐方式 text-align
+   left center right justify */
+.text-style {
+    text-align: right;
+}
+
+/* 间距
+   字符间距 letter-spacing
+   单字间距 word-spacing */
+.text-style {
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+/* 首行缩进 text-indent */
+.text-style {
+    text-indent: 50px;
+}
+
+/* 文本修饰线 */
+/* 上划线 underline
+   删除线 line-through
+   上划线 overling */
+.text-style {
+    text-decoration: underline;
+}
+
+/* 空白符 white-space */
+/* normal 连续的空白符会被合并，换行符会被当作空白符来处理。换行在填充「行框盒子(line boxes)」时是必要。
+   nowrap 和 normal 一样，连续的空白符会被合并。但文本内的换行无效。
+   pre 连续的空白符会被保留。在遇到换行符或者<br>元素时才会换行。 
+   pre-wrap 连续的空白符会被保留。在遇到换行符或者<br>元素，或者需要为了填充「行框盒子(line boxes)」时才会换行。
+   pre-line 连续的空白符会被合并。在遇到换行符或者<br>元素，或者需要为了填充「行框盒子(line boxes)」时会换行。 */
+.white-space {
+    white-space: pre;
+}
+
+/* 文本阴影 text-shadow 
+   text-shadow: 颜色:color 偏移方向x/y:offset-x offset-y 模糊半径:blur-radius */
+.text-shadow {
+    text-shadow: orange 1px 1px 2px;
+}
