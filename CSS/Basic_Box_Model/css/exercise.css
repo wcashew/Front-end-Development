@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.box1 {
+    width: 200px;
+    text-align: justify;
+    margin-bottom: 1em;
+    background: coral;
+    padding: 20px;
+}
+.box2 {
+    width: 200px;
+    text-align: justify;
+    margin-bottom: 1em;
+    background: lightskyblue;
+    padding: 20px 40px;
+}
+.box3 {
+    width: 200px;
+    text-align: justify;
+    margin-bottom: 1em;
+    background: lightpink;
+    padding: 20px 30px 40px;
+}
+.box4 {
+    width: 200px;
+    text-align: justify;
+    margin-bottom: 1em;
+    background: green;
+    padding: 20px 30px 40px 50px;
+}
+
+.border {
+    width: 100px;
+    height: 100px;
+    border-top: 20px solid red;
+    border-right: 20px solid blue;
+    border-bottom: 20px solid purple;
+    border-left: 20px solid yellow;
+}
