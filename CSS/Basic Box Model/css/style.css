@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+.text {
+    width: 15em;
+    height: 5em;
+    padding: 1em;
+    border: 2px solid red;
+    overflow: scroll; /* hidden 隐藏超出边框内容； scroll 显示内容和滑块 */
+}
