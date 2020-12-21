@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Box 类型</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div>
+        <h2>DOM 树与盒子</h2>
+        <ul>
+            <li>根据 DOM 树生成盒子</li>
+            <li>摆放盒子(Layout)
+                <ul>
+                    <li>盒子尺寸和类型</li>
+                    <li>定位模式(positioning scheme)</li>
+                    <li>节点在 DOM 树中的位置</li>
+                    <li>其它信息（窗口大小、图片大小等）</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <p><span>Learn to Code HTML & CSS is a simple and comprehensive guide dedicated to helping beginners learn HTML and CSS. Outlining the fundamentals, this guide works through all common elements of front-end design and development.</span></p>
+    </div>
+
+    <div>
+        <h2>块级</h2>
+        <ul>
+            <li>Block Level Box</li>
+            <li>不和其它盒子并列摆放</li>
+            <li>适用所有盒模型属性</li>
+        </ul>
+        <h2>行级</h2>
+        <ul>
+            <li>Inline Level Box</li>
+            <li>和其它行级盒子一起放在一行或拆分成多行</li>
+            <li>盒模型中的 width、height 不适用</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>块级元素</h2>
+        <ul>
+            <li>生成块级盒子</li>
+            <li>body、article、div、main、section、h1-h6、p、ul、li等</li>
+            <li>display: block</li>
+        </ul>
+        <h2>行级元素</h2>
+        <ul>
+            <li>生成行级盒子；内容分散在多个行盒(inline box)中</li>
+            <li>span、em、strong、cite、code等</li>
+            <li>display: inline</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>display</h2>
+        <ul>
+            <li>block 块级盒子</li>
+            <li>inline 行级盒子</li>
+            <li>inline-block 本身是行级，可以放在行盒中；可以设置宽高；作为一个整体不会被折成多行</li>
+            <li>none 排版时完全被忽略</li>
+        </ul>
+    </div>
+
+    <div>
+        <p>An inline-block box is something in between the first two: It flows with
+            surrounding text without creating line breaks before and after it like an inline
+            box, but it can be sized using width and height and maintains its block integrity
+            like a block box — <em>it won't be broken</em> across paragraph lines (an inlineblock box that overflows a line of text will drop down onto a 2nd line, as there
+            is not enough space for it on the first line, and it won't break across two lines.)</p>
+    </div>
+</body>
+</html>
