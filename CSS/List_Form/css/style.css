@@ -11,3 +11,9 @@
 .list-style-image {
     list-style-image: url("../images/bullet.png");
 }
+table tr td {
+    border: gray solid 1px;
+}
+.collapse {
+    border-collapse: collapse;
+}
