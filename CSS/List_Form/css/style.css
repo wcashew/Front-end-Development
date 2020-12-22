@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.list-style-position-outside {
+    list-style-type:square;
+    list-style-position: outside;
+}
+.list-style-position-inside {
+    list-style-type: square;
+    list-style-position: inside;
+}
+.list-style-image {
+    list-style-image: url("../images/bullet.png");
+}
