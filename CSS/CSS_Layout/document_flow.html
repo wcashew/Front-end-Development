@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="./css/doc_flow.css">
+    <title>文档流定位</title>
+</head>
+<body>
+    <div>
+        <span>block元素特点：<br/>1、独占一行。<br/>2、元素的height、width、margin、padding都可以设置</span>
+        <span>常见的block元素有：div、p、h1-h6、ol、ul、table、form</span>
+        <span>将元素转为block元素使用display:block</span>
+        <div>以上的三个span元素转换为了block元素</div>
+    </div>
+    <hr/>
+    <div>
+        <p>这是第一段</p>
+        <p>这是第二段</p>
+        <div>上面两个p元素转换为了inline元素</div>
+        <div>注意inline元素之间的间距问题</div>
+        <div>
+            inline元素特点：<br/>
+            1、不单独占一行<br/>
+            2、width、height不可以设置<br/>
+            3、width就是它包含的图片、文字的宽度<br/>
+            常见的元素：span、a <br/>
+        </div>
+    </div>
+    <hr/>
+    <div>
+        inline-block元素特点：<br/>
+        1、不单独占一行<br/>
+        2、元素的height、width、margin、padding都可以设置<br/>
+        常见的元素：img <br/>
+        <div>
+            <a href="#">链接1</a>
+            <a href="#">链接2</a>
+        </div>
+        <div>上面两个a元素转换为了inline-block元素</div>
+    </div>
+</body>
+</html>
