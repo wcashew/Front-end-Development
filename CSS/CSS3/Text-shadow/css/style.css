@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: max-content;
+    height: max-content;
+    margin: 10px auto;
+}
+
+/* 文字描边效果 */
+.shadow1 {
+    text-shadow: 0 0 3px green;
+}
+ /* 文字浮雕效果 */
+ .shadow2 {
+     color: white;
+     text-shadow: 2px 2px 4px #000;
+ }
+
+/* 单词换行 */
+.wdrp {
+    width: 10em;
+    border:1px solid #333;
+    word-wrap: break-word;
+}
+
+/* 使用webfont
+   @font-face */
+
+@font-face {
+    font-family: greatvibes;
+    src: url('../fonts/greatvibes.eot'),
+         url('../fonts/greatvibes.svg'),
+         url('../fonts/greatvibes.ttf'),
+         url('../fonts/greatvibes.woff');
+}
+.webfont {
+    font-family: greatvibes;
+    font-size: 20px;
+}
