@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: max-content;
+    height: max-content;
+    margin: 10px auto;
+}
+p {
+    margin: 10px auto;
+}
+#rotate {
+    width: max-content;
+    height: max-content;
+    margin: 20px auto;
+}
+/* 旋转 transform:rotate() */
+.box {
+    width: 100px;
+    height: 75px;
+    background-color: #ccc;
+    border: 1px solid black;
+}
+#rotdiv {
+    transform: rotate(30deg);
+}
+
+/* 缩放 transform:scale() */
+#scale {
+    width: max-content;
+    height: max-content;
+    margin: 0px auto;
+}
+.box1 {
+    float: left;
+    margin-right: 30px;
+}
+.box1:hover{
+    transform: scale(0.5);
+}
+.box2 {
+    float: left;
+}
+.box2:hover {
+    transform: scale(1.2);
+}
