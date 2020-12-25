@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#linear {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    background-color: silver;
+    transition: all 1s linear;
+}
+#linear:hover {
+    color: white;
+    background-color: #45B823;
+}
+
+#ease {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    background-color: silver;
+    transition: all 1s ease;
+}
+#ease:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+
+#easein {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    background-color: silver;
+    transition: all 1s ease-in;
+}
+#easein:hover {
+    color: white;
+    background-color: yellowgreen;
+}
+
+#easeout {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    background-color: silver;
+    transition: all 1s ease-out;
+}
+#easeout:hover {
+    color: white;
+    background-color: darkmagenta;
+}
+
+#easeinout {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 30px;
+    background-color: silver;
+    transition: all 1s ease-in-out;
+}
+#easeinout:hover {
+    color: white;
+    background-color: salmon;
+}
