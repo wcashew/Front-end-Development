@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* transision: linear 效果 */
 #linear {
     width: 100px;
     height: 30px;
@@ -16,6 +17,7 @@
     background-color: #45B823;
 }
 
+/* transision: ease 效果 */
 #ease {
     width: 100px;
     height: 30px;
@@ -32,6 +34,7 @@
     background-color: yellowgreen;
 }
 
+/* transision: ease-in 效果 */
 #easein {
     width: 100px;
     height: 30px;
@@ -48,6 +51,7 @@
     background-color: yellowgreen;
 }
 
+/* transision: ease-out 效果 */
 #easeout {
     width: 100px;
     height: 30px;
@@ -64,6 +68,7 @@
     background-color: darkmagenta;
 }
 
+/* transision: ease-in-out 效果 */
 #easeinout {
     width: 100px;
     height: 30px;
