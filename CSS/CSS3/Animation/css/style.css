@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#animation {
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+@keyframes mycolor {
+    0% {background-color: red;}
+    30% {background-color: blue;}
+    60% {background-color: yellow;}
+    100% {background-color: green;}
+}
+#animation:hover {
+    animation: mycolor 5s linear;
+}
