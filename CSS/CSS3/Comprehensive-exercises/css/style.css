@@ -43,7 +43,7 @@ a:active {
 }
 #main {
     background-color: #000;
-    height: 2050px;
+    /* height: 2050px; */
 }
 #aside {
     float: left;
@@ -56,9 +56,31 @@ a:active {
 #content {
     float: right;
     width: 595px;
-    height: 2050px;
+    /* height: 2050px; */
     margin-bottom: 5px;
     background-color: #cff;
+}
+.subcon {
+    width: 570px;
+    margin: 10px auto;
+    clear: both;
+}
+.subcon img {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    border: 1px dashed #000;
+}
+.subcon .subtext {
+    width: 60%;
+    float: left;
+    margin: 5px;
+}
+.subcon h2 {
+    margin: 5px;
+}
+.subcon p {
+    font: 16px/2em;
 }
 #footer {
     height: 60px;
