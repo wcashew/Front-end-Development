@@ -15,6 +15,14 @@ body {
 #header {
     height: 220px;
     margin-bottom: 5px;
+    position: relative;
+}
+.icon-list {
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    width: 130px;
+    height: 30px;
 }
 #nav {
     height: 30px;
@@ -88,4 +96,9 @@ a:active {
     background-color: #6cf;
     clear: both;
     text-align: center;
+}
+.l-fix {
+    position: fixed;
+    top: 100px;
+    left: 5px;
 }
