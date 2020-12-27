@@ -18,12 +18,28 @@ body {
 }
 #nav {
     height: 30px;
+    line-height: 30px;
     margin-bottom: 5px;
     background-color: #09c;
     font: 18px/30px;
     color: #fff;
     letter-spacing: 2px;
     text-align: center;
+}
+#nav a {
+    text-decoration: none;
+}
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: yellow;
 }
 #main {
     background-color: #000;
