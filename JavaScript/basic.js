@@ -8,3 +8,21 @@ var name = "XZ.PP";
 let bookNum = 0;
 const firstName = "Wang";
 
+/* 数据类型包括：原始类型（基本类型）和引用类型
+   原始类型有：number string boolean null undefined */
+// number 类型
+var num1 = 123;
+var num2 = 0123;
+var num3 = 0x123;
+var num4 = 3.1415;
+
+// string 类型
+var bookeName = "平凡的世界"
+"张".charCodeAt.toString(16) // 查看字符“张”的十六制 汉字起始字符为：\u4e00 结束字符为：\u9fa5
+
+// boolean 类型
+var result1 = true;
+var result2 = false;
+
+// null 声明对象未赋值
+// undefined 声明变量未赋值；访问对象不存在的属性
