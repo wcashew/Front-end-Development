@@ -26,3 +26,9 @@ var result2 = false;
 
 // null 声明对象未赋值
 // undefined 声明变量未赋值；访问对象不存在的属性
+
+
+// 类型转换
+// toString() 方法 将任意类型的数据转换为 string 类型
+var roomNum = 15
+roomNum.toString()
