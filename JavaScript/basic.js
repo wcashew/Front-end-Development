@@ -30,5 +30,15 @@ var result2 = false;
 
 // 类型转换
 // toString() 方法 将任意类型的数据转换为 string 类型
-var roomNum = 15
-roomNum.toString()
+var roomNum = 15;
+roomNum.toString();
+
+/* parseInt() 函数可以获取数据的整数部分
+   从左至右依次转换，碰到第一个非整数字符则停止转换。
+   如果第一个字符就是非整数字符，则结果为 NaN parseFloat() 同理*/
+var float = 3.1415
+var floatParseInt = parseInt(float)
+
+// Number() 将字符串解析为 number 如果包含非法字符则返回 NaN
+var strToNum = Number("111122223333");
+
