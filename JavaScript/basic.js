@@ -36,9 +36,26 @@ roomNum.toString();
 /* parseInt() 函数可以获取数据的整数部分
    从左至右依次转换，碰到第一个非整数字符则停止转换。
    如果第一个字符就是非整数字符，则结果为 NaN parseFloat() 同理*/
-var float = 3.1415
-var floatParseInt = parseInt(float)
+var float = 3.1415;
+var floatParseInt = parseInt(float);
 
 // Number() 将字符串解析为 number 如果包含非法字符则返回 NaN
 var strToNum = Number("111122223333");
+
+// 自增与自减
+i++; // 相当于 i = i + 1
+i--; // 相当于 i = i - 1
+
+i = 1;
+j = i++; // i 为 2，j 为 1。先将 i 的结果赋值给 j 再进行自增运算
+
+a = 1;
+b = ++a; // a 和 b 的值都为 2。先进行自增运算，再将 a 的值赋给 b
+
+// isNaN() 函数判断数据是否为数字。是数字类型则返回 false;不是数字类型则返回 true
+
+// 三目运算
+var age = 20;
+var msg = age > 18? "成年人": "未成年人"; // 如果表达式1为true，则执行表达式2并返回结果。如果表达式1为false，则执行表达式3并返回结果。
+
 
