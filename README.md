@@ -10,3 +10,5 @@
 部分 HTML 和 CSS 内容为了方便查看学习笔记，故没有进行代码优化和整理。
 
 CSS 看似简单，实则内部世界繁杂。常用知识点要熟记，时常查看参考手册 [CSS 参考](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference)。
+
+[JavaScript 指南](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide)
