@@ -9,3 +9,4 @@ if (score >= 90) {
 } else {
     console.log("不及格");
 }
+
