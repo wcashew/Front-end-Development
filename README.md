@@ -4,7 +4,7 @@
 ## 前端开发学习笔记
 
 
-### 整理前端开发学习笔记，参考教程[清华大学 Web 前端攻城狮](https://www.xuetangx.com/course/THU08091000257)和[网易云课堂前端开发工程师](https://mooc.study.163.com/smartSpec/detail/12001.htm)
+### 整理前端开发学习笔记，参考教程[北京林业大学 Web 前端开发](https://www.icourse163.org/course/BFU-1003382003)和[网易云课堂前端开发工程师](https://mooc.study.163.com/smartSpec/detail/12001.htm)
 
 
 部分 HTML 和 CSS 内容为了方便查看学习笔记，故没有进行代码优化和整理。
