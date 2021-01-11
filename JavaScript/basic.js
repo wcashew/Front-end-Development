@@ -12,9 +12,9 @@ const firstName = "Wang";
    原始类型有：number string boolean null undefined */
 // number 类型
 var num1 = 123;
-var num2 = 0123;
-var num3 = 0x123;
-var num4 = 3.1415;
+var num2 = 0123; //八进制
+var num3 = 0x123; //十六进制
+var num4 = 3.1415; //浮点数
 
 // string 类型
 var bookeName = "平凡的世界"
